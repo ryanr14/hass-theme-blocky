@@ -12,7 +12,7 @@ Based on the stylesheets I use regularly for my own projects, I've decided to po
 
 ### Requirements
 
-1. [card-mod](https://github.com/thomasloven/lovelace-card-mod)
+1. [UI eXtension](https://uix.lf.technology)
 
 ### HACS
 

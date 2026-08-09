@@ -351,10 +351,10 @@ Blocky: &base
   masonry-view-card-margin: calc(var(--gap-width) / 2) calc(var(--gap-width) / 2) var(--gap-width) calc(var(--gap-width) / 2)
   ha-section-grid-row-height: 64px
 
-  # Card-Mod
-  card-mod-theme: "Blocky"
+  # UI eXtension
+  uix-theme: "Blocky"
 
-  card-mod-sidebar-yaml: |
+  uix-sidebar-yaml: |
     .: |
       a.iron-selected paper-icon-item::before {
         border-radius: 0;
@@ -366,7 +366,7 @@ Blocky: &base
           color: var(--clr-primary-dark) !important;
         }
 
-  card-mod-view-yaml: |
+  uix-view-yaml: |
     "*:first-child":
       $:
         .: |
@@ -401,7 +401,7 @@ Blocky: &base
                           border-radius: 0 !important;
                         }
 
-  card-mod-card-yaml: |
+  uix-card-yaml: |
     .: |
       ha-card {
         transition: none;
